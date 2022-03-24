@@ -10,7 +10,7 @@ import org.springframework.web.servlet.config.annotation.EnableWebMvc;
 @SpringBootApplication
 @ComponentScan({"com.tcs.*"})
 @EnableAutoConfiguration
-@EnableWebMvc // For the REST implemantaion we need to do the this annotation enable
+@EnableWebMvc // For the REST implementation we need to do the this annotation enable
 public class DemoSpringRestProjectApplication {
 
 	public static void main(String[] args) {
